@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto Light", serif;
+    background: black;
+    color: white;
+}
+header{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+    height:20px
+}
+.purple{
+    color: #ABB3FF;
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color:white;
+    padding:8px;
+}
+
+nav a:hover{
+    background:#C7CCFA;
+    color: black;
+    border-radius: 20px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+}
+.text {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text h1{
+    font-size:50px;
+    margin-bottom: 8px;
+}
+.text a
+{   font-size:15px;
+    text-decoration: none;
+    color:black;
+    background: #C7CCFA;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    height: 20px;
+}
+.aboutus {
+     width:80%;
+    margin: 20px auto 0 ;
+    line-height: 25px;
+    text-align: justify;
+}
+.aboutus h3{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.aboutus p{
+    margin-bottom: 15px;
+}
+.sign_up_form{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.enter {
+    background:#C7CCFA;
+    margin-bottom: 5px;
+    color:black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.submit {
+    margin-top: 10px;
+    background: black;
+    color: #ABB3FF;
+}
+
+@media screen {
+
+}
