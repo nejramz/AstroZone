@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: "Roboto Light", serif;
+    font-family: "Montseratt", serif;
     background: black;
     color: white;
 }
@@ -15,8 +15,9 @@ header{
     padding: 15px;
     height:20px
 }
-.purple{
+.aboutus h3{
     color: #ABB3FF;
+    margin: 0 auto;
 }
 nav a{
     text-decoration: none;
@@ -30,7 +31,9 @@ nav a:hover{
     color: black;
     border-radius: 20px;
 }
-
+.purple{
+    color: #ABB3FF;
+}
 .container{
     position: relative;
     text-align: center;
@@ -60,7 +63,7 @@ footer{
     height: 20px;
 }
 .aboutus {
-     width:80%;
+    width:80%;
     margin: 20px auto 0 ;
     line-height: 25px;
     text-align: justify;
@@ -95,6 +98,15 @@ form {
     color: #ABB3FF;
 }
 
+.error{
+    background: rgba(51,29,72,0.91);
+    color:#F5DEDE;
+    padding: 10px;
+    width:95%;
+    border-radius: 10px;
+    align-content: center;
+    margin: 0 auto;
+}
 @media screen {
 
 }
